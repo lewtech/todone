@@ -19,15 +19,16 @@ my personal folder path on mac:
 3. Copy files to /todone
 4. Run Xammp
 5. Start webserver under |General| tab
-6. Create Mysql database
+6. Under |Services| tab, start apache, and mysql if they aren't already
+7. Under |Network| tab, enable localhost:8080->80
+8. Create Mysql database in http://localhost:8080/phpmyadmin/
 #### Database Setup
 name | type | default | index
 ---|---|---|---
 id | int(11) | none | Primary
 task | varchar(200) | none | none
-datetime | datetime | none | CURRENT_TIMESTAMP
-7. Under |Services| tab, start apache, and mysql if they aren't already
-8. Browse to http://localhost/todone
+datetime | datetime | CURRENT_TIMESTAMP | none
+9. Browse to http://localhost:8080/todone/
 
 
 
