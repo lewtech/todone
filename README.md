@@ -19,8 +19,8 @@ my personal folder path on mac:
 3. Copy files to /todone
 4. Run Xammp
 5. Start webserver under |General| tab
-6. Create Mysql database...see notes
-# Database Setup
+6. Create Mysql database
+#### Database Setup
 name | type | default | index
 ---|---|---|---
 id | int(11) | none | Primary
