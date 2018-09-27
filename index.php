@@ -10,42 +10,55 @@
 <body>
 	<div class="container">
 		<div class="row"></div>
-			<center><h1>Todone!</h1></center>
-			<button type="button" class = "btn-btn-done">Add Todo</button>
-			<button type="button" class = "btn-btn-done">Add Todo</button>
-			<div class="col-md-10 col-md-offset-1">
-				<table class="table">
-					<hr><br>
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Task</th>
-      <th scope="col">Date</th>
-      
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Finish this app</td>
-      <td>9-27-18</td>
-      
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      
-    </tr>
-  </tbody>
-</table>
-	</div>	
+		<center><h1>Todone!</h1></center>
+		<button type="button" data-target="#myModal" data-toggle="modal" class = "btn btn-success">+Add Todo</button>
+		<button type="button" class = "btn-default">Sort</button>
+		<div class="col-md-10 col-md-offset-1">
+			<!-- Modal -->
+			<div id="myModal" class="modal fade" role="dialog">
+				<div class="modal-dialog">
 
-</body>
-</html>
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Modal Header</h4>
+						</div>
+						<div class="modal-body">
+							<p>Some text in the modal.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<table class="table">
+				<hr><br>
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Date</th>
+						<th scope="col">Task</th>
+
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>9-27-18</td>
+						<td>Finish this app</td>
+						
+						<td><a href="" class="btn btn-default pull-right">Edit</a> </td>
+						<td><a href="" class="btn btn-success">DONE</a></td>
+
+
+					</tr>
+
+				</tbody>
+			</table>
+		</div>	
+
+	</body>
+	</html>
