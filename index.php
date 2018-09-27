@@ -11,35 +11,37 @@
 	<div class="container">
 		<div class="row"></div>
 			<center><h1>Todone!</h1></center>
-			<button></button>
+			<button type="button" class = "btn-btn-done">Add Todo</button>
+			<button type="button" class = "btn-btn-done">Add Todo</button>
 			<div class="col-md-10 col-md-offset-1">
 				<table class="table">
+					<hr><br>
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Task</th>
+      <th scope="col">Date</th>
+      
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>Finish this app</td>
+      <td>9-27-18</td>
+      
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
-      <td>@fat</td>
+      
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>Larry</td>
       <td>the Bird</td>
-      <td>@twitter</td>
+      
     </tr>
   </tbody>
 </table>
