@@ -8,9 +8,17 @@ To do list Take Home Project Requirements
  - [ ] Displays in the order they are created with the date of creation
  - [ ] TODO items are stored in a SQL database and are persistent...any SQL SErver is accepted (MySQL Xammp)
  - [x] Use a public Git repository for version control
- - [ ] Documentation on how to build and deploy
+ - [x] Documentation on how to build and deploy
 
 # Build and Deploy Documentation
+
+1. Download and install XAMP : https://www.apachefriends.org/index.html
+2. Create folder "todone" in /htdocs folder under xamp
+3. Copy files to /todone
+4. Run Xammp
+5. Start webserver under |General| tab
+6. Under |Services| tab, start apache, and mysql if they aren't already
+7. Browse to http://localhost/todone
 
 # Notes 
 
