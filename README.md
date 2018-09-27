@@ -27,7 +27,8 @@ my personal folder path on mac:
 name | type | default | index
 ---|---|---|---
 id | int(11) | none | Primary
-
+task | varchar(200) | none | none
+datetime | datetime | none | CURRENT_TIMESTAMP
 
 
 # Notes 
