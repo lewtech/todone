@@ -11,3 +11,13 @@ To do list Take Home Project Requirements
  - [ ] Documentation on how to build and deploy
 
 # Build and Deploy Documentation
+
+# Notes 
+
+Creating a Todo list as a take home exercise after an interview. I
+don't have much practical experience in webdevelopment lately, so I am
+starting from scratch. I do have a fundamental understanding of
+webdevelopment/js/css/bootstrap. I think php is my best bet. I can get
+a functional app up quickly showing all of the above requirements. It
+would be nice to really dive into webdevelopment and design something
+that's functional and beautiful. But that is a task for Future-Lew.
