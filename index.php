@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+
+<?php include 'db.php'; ?>
 <html>
 <head>
 
