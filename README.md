@@ -11,6 +11,8 @@ To do list Take Home Project Requirements
  - [x] Documentation on how to build and deploy
 
 # Build and Deploy Documentation
+my personal folder path on mac:
+/Users/lewflauta/.bitnami/stackman/machines/xampp/volumes/root/htdocs/ 
 
 1. Download and install XAMP : https://www.apachefriends.org/index.html
 2. Create folder "todone" in /htdocs folder under xamp
@@ -29,3 +31,4 @@ webdevelopment/js/css/bootstrap. I think php is my best bet. I can get
 a functional app up quickly, demonstrating all of the above requirements. It
 would be nice to really dive into webdevelopment and design something
 that's responsive, functional, and beautiful. But that is a task for Future-Lew.
+
