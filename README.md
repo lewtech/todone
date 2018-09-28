@@ -16,7 +16,7 @@ my personal folder path on mac:
 
 1. Download and install XAMP : https://www.apachefriends.org/index.html
 2. Create folder "todone" in /htdocs folder under xamp
-3. Copy files to /todone
+3. Copy files to /todone (minus screenshots and todo_demo.mov)
 4. Run Xammp
 5. Start webserver under |General| tab
 6. Under |Services| tab, start apache, and mysql if they aren't already
@@ -42,4 +42,6 @@ webdevelopment/js/css/bootstrap. I think php is my best bet. I can get
 a functional app up quickly, demonstrating all of the above requirements. It
 would be nice to really dive into webdevelopment and design something
 that's responsive, functional, and beautiful. But that is a task for Future-Lew.
+
+Included are some screenshots and demo vid for convenience.
 
