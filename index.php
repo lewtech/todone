@@ -21,8 +21,8 @@ $rows = $db->query($sql);
 	<div class="container">
 		<div class="row"></div>
 		<center><h1>Todone!</h1></center>
-		<button type="button" data-target="#myModal" data-toggle="modal" class = "btn btn-success">+Add Todo</button>
-		<button type="button" class = "btn-default">Sort</button>
+		
+		
 		<div class="col-md-10 col-md-offset-1">
 			<!-- Modal -->
 			<div id="myModal" class="modal fade" role="dialog">
@@ -52,6 +52,7 @@ $rows = $db->query($sql);
 			</div>
 			<table class="table">
 				<hr><br>
+				<button type="button" data-target="#myModal" data-toggle="modal" class = "btn btn-success ">+Add Todo</button>
 				<thead>
 					<tr>
 						
@@ -67,10 +68,10 @@ $rows = $db->query($sql);
 
 
 						
-						<td><?php echo $row['datetime'] ?></td>
-						<td><?php echo $row['task'] ?></td>
+						<td class="col-md-2"><?php echo $row['datetime'] ?></td>
+						<td class="col-md-5"><?php echo $row['task'] ?></td>
 						
-						<td><a href="" class="btn btn-default pull-right">Edit</a> </td>
+						<td><a href="update.php?datetime=<?php echo $row['datetime'];?>">Edit</a> </td>
 						<td><a href="complete.php?datetime=<?php echo $row['datetime'];?>" class="btn btn-success">DONE</a></td>
 
 
@@ -79,6 +80,7 @@ $rows = $db->query($sql);
 
 			</tbody>
 		</table>
+
 	</div>	
 
 </body>
