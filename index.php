@@ -35,12 +35,12 @@ $rows = $db->query($sql);
 							<h4 class="modal-title">Add Todo</h4>
 						</div>
 						<div class="modal-body">
-							<form>
+							<form method="post" action="add.php">
 								<div class="form-group">
 									<label>Todo details</label>
 									<input type="text" required name="task" class="form-control">
 								</div>
-								<input type="submit" name="send" value="send" class="btn btn-success">
+								<input type="submit" name="send" value="+Add Todo" class="btn btn-success">
 							</form>
 						</div>
 						<div class="modal-footer">
@@ -63,8 +63,8 @@ $rows = $db->query($sql);
 				<tbody>
 					<tr>
 
-					<?php while($row = $rows->fetch_assoc()): ?>
-					
+						<?php while($row = $rows->fetch_assoc()): ?>
+						
 
 						<th><?php echo $row['id'] ?></th>
 						<td><?php echo $row['datetime'] ?></td>
@@ -75,11 +75,11 @@ $rows = $db->query($sql);
 
 
 					</tr>
-						<?php endwhile; ?>
+				<?php endwhile; ?>
 
-				</tbody>
-			</table>
-		</div>	
+			</tbody>
+		</table>
+	</div>	
 
-	</body>
-	</html>
+</body>
+</html>
