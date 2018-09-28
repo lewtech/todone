@@ -45,3 +45,21 @@ that's responsive, functional, and beautiful. But that is a task for Future-Lew.
 
 Included are some screenshots and demo vid for convenience.
 
+
+# Screenshots and Demo
+[Demo Video](https://github.com/lewtech/todone/blob/master/todo%20demo.mov)
+
+--- 
+![alt text](https://github.com/lewtech/todone/blob/master/Screenshot0.png)
+
+--- 
+![alt text](https://github.com/lewtech/todone/blob/master/Screenshot1.png)
+
+--- 
+![alt text](https://github.com/lewtech/todone/blob/master/Screenshot2.png)
+
+--- 
+![alt text](https://github.com/lewtech/todone/blob/master/Screenshot3.png)
+
+--- 
+![alt text](https://github.com/lewtech/todone/blob/master/Screenshot4.png)
