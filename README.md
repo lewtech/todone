@@ -23,11 +23,11 @@ my personal folder path on mac:
 7. Under |Network| tab, enable localhost:8080->80
 8. Create Mysql database in http://localhost:8080/phpmyadmin/
 #### Database Setup
-name | type | default | index
----|---|---|---
-id | int(11) | none | Primary
-task | varchar(200) | none | none
-datetime | datetime | CURRENT_TIMESTAMP | none
+name | type | default 
+---|---|---
+task | varchar(200) | none
+datetime | datetime | CURRENT_TIMESTAMP 
+
 9. Browse to http://localhost:8080/todone/
 
 
