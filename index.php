@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 
-<?php include 'db.php'; ?>
+<?php include 'db.php'; 
+
+$sql = "select * from todos";
+$rows = $db->query($sql);
+
+?>
+
+
 <html>
 <head>
 
@@ -55,15 +62,20 @@
 				</thead>
 				<tbody>
 					<tr>
-						<th scope="row">1</th>
-						<td>9-27-18</td>
-						<td>Finish this app</td>
+
+					<?php while($row = $rows->fetch_assoc()): ?>
+					
+
+						<th><?php echo $row['id'] ?></th>
+						<td><?php echo $row['datetime'] ?></td>
+						<td><?php echo $row['task'] ?></td>
 						
 						<td><a href="" class="btn btn-default pull-right">Edit</a> </td>
 						<td><a href="" class="btn btn-success">DONE</a></td>
 
 
 					</tr>
+						<?php endwhile; ?>
 
 				</tbody>
 			</table>
