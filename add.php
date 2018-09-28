@@ -6,7 +6,10 @@ $task = $_POST['task'];
 $sql = "insert into todos (task) values ('$task')";
 $val = $db->query($sql);
 if($val == true){
-	echo "successfully inserted";
+	header('location: index.php');
+}else{
+	$arr = $statement->errorInfo(); 
+print_r($arr);
 }
 
 }

@@ -54,7 +54,7 @@ $rows = $db->query($sql);
 				<hr><br>
 				<thead>
 					<tr>
-						<th scope="col">#</th>
+						
 						<th scope="col">Date</th>
 						<th scope="col">Task</th>
 
@@ -64,14 +64,14 @@ $rows = $db->query($sql);
 					<tr>
 
 						<?php while($row = $rows->fetch_assoc()): ?>
-						
 
-						<th><?php echo $row['id'] ?></th>
+
+						
 						<td><?php echo $row['datetime'] ?></td>
 						<td><?php echo $row['task'] ?></td>
 						
 						<td><a href="" class="btn btn-default pull-right">Edit</a> </td>
-						<td><a href="" class="btn btn-success">DONE</a></td>
+						<td><a href="complete.php?datetime=<?php echo $row['datetime'];?>" class="btn btn-success">DONE</a></td>
 
 
 					</tr>
